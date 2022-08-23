@@ -1,182 +1,222 @@
 body{
-    background-color: #1b262c;
-    color: #fdcb9e;
-    margin: 0;
+    font-family: 'Flamenco', sans-serif;
+    background-color: #e8e2d7;
+    color: #e6e6e6;
+}
+
+.sitebrand{
+    font-size: 4.5rem;
+    font-weight: 999;
+    padding-left: 4rem;
+    }
+.intro-heading{
+    font-size: 5rem;
+    font-weight: 900;
+    
+}
+
+.navbar{
+    background-color: #512314;
+}
+
+.container-fluid{
+    padding: 3% 10% 3% 10%;
+    color: #512314;
+    
+}
+
+.sitenavlinks{
+    font-size: 2rem;
+    padding-right: 4rem;
+}
+
+.navbar-item{
+    margin: auto 0.5rem;
+}
+
+.navbar{
+    padding-top: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+.dropdown-menu{
+    font-size: 1.35rem;
+    background-color: #e8e2d7;
+}
+
+.dropdown-item:hover{
+    background-color: #F76E11;
+}
+
+.front-text{
+    margin-top: 2.5rem;
+}
+
+#deals{
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(81, 35, 20);
+    color: #e6e6e6;
+    margin-right: 0%;
 }
 
-h1{
-  margin: 60 auto 60 auto;
-  color: white;
-  font-family: 'Sofia', cursive;
-  font-size: 5.625rem;
-  padding-bottom: 50px;
+.carousel{
+    margin-right: 0%;
 }
 
-h2{
-  font-family: 'Miriam Libre', sans-serif;
-  color: #00b7c2;
-  font-size: 3rem;
-  font-weight: normal;
-}
-h3{
-  font-family: 'Dosis', sans-serif;
-  font-size: 2rem;
+.carousel-item{
+    padding: 0% 0% 0%;
+    margin-right: 0%;
 }
 
-p{
-  font-size: 1.5rem;
+.deal-text{
+    width:75%;
+    font-size: 3rem;
 }
 
-.top-container{
-  background-color: #00b7c2;
-  position:relative;
-  padding-top:100px;
-  margin-bottom: 0;
-  border-bottom: 0;
-  line-height: 1;
-}
-
-.profile{
-  padding-bottom: 30px;
-}
-
-.skills{
-  padding-top: 50px;
-  /*background-color: #0f4c75;*/
-}
-
-.middle-container{
-  
-}
-
-.bottom-container{
-  padding-top: 30px;
-  background-color: #00b7c2;
-  color: #1b262c;
-  margin-bottom: 0;
-
+.deal-image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 
-#topcloud{
-  position:absolute;
-  left: 60%;
-  top: 10%;
+.menu-heading{
+    margin-top: 3%;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
-#bottomcloud{
-  position:absolute;
-  right:70%;
-  bottom:40%;
+
+.card{
+    background-color: #e8e2d7;
+    border: 0px;
+    text-align: center;
 }
 
-#mountain{
-  margin-bottom: 0;
+.card-title{
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 
-.skill-row{
-  width:60%;
-  margin: 100px auto 100px auto;
-  text-align: left;  
+.card-text{
+    font-size: 1.35rem;
+    font-weight: 400;
 }
 
-.python-img{
-  width:25%;
-  margin-left:20px;
-  float: left;
+
+
+.card-deck{
+    margin-top: 5%;
 }
 
-.webd-img{
-  width:25%;
-  margin-left:20px;
-  float : left;
+
+.card-img-top{
+    align-self: center;
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
 }
 
-.uhr{
-  /*background-color: whitesmoke;*/
-  border-style: none;
-  border-top-style:dotted;
-  border-width:10px;
-  border-color: #00b7c2;
-  width:10%;
-  height: 2px;
-  margin-top:60px;
-  margin-bottom:0;
-  
+.btn-outline-dark{
+    width:75%;
+    align-self: center;
+    border-color: #512314;
+    border-width: 2px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    /* border-width: 10px; */
+    color:#512314;
+
 }
 
-.lhr{
-  /*background-color: whitesmoke;*/
-  border-style: none;
-  border-top-style:dotted;
-  border-width:10px;
-  border-color:  #fdcb9e;
-  width:10%;
-  height: 2px;
-  margin-top:0;
-  
-}
-.profile-pic{
-  width:15%;
+.btn-outline-dark:hover{
+    background-color: #512314;
+    color:#e6e6e6;
 }
 
-.contact-me{
-  padding-top: 100px;
-  padding-bottom: 100px;
+.cta{
+    background-color: #512314;
+    color:#e6e6e6;
 }
 
-.cntct-btn {
-  background: #0F4C75;
-  background-image: -webkit-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -moz-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -ms-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -o-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -webkit-gradient(to bottom, #0F4C75, #1B262C);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  height: 14px;
-  line-height: 14px;
-  color: #FDCB9E;
-  font-family: monospace;
-  width: 185px;
-  font-size: 26px;
-  font-weight: 100;
-  padding: 15px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
-  -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
-  text-shadow: 1px 1px 20px #000000;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
+.dl{
+    margin-top: 4%;
+    text-align: right;
+}
+.dl-btn{
+    font-size: 1.7rem;
+    margin-top: 2%;
+    width: 30%;
+    border-color:#e6e6e6;
+    color: #e6e6e6;
 }
 
-.cntct-btn:hover {
-  border: solid #FDCB9E 5px;
-  background: #0F4C75;
-  background-image: -webkit-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -moz-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -ms-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -o-linear-gradient(top, #0F4C75, #1B262C);
-  background-image: -webkit-gradient(to bottom, #0F4C75, #1B262C);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  text-decoration: none;
+.dl-btn:hover{
+    border-color: #F76E11;
 }
 
-.footer-link{
-  color: #1b262c;
-  font-size: 1.25rem;
-  margin: 0 10px 0 10px;
-  text-decoration: none;
+#footer{
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 3% auto 2%;
+    color: #512314;
 }
 
-.footer-link:hover{
-  color: white;
-  font-size: 1.5rem;
+.social-links{
+    text-align: center;
+    margin: 0 auto 1.5%;
+}
+
+.link-tabs{
+    margin: auto 0.5rem;
+    width: 2rem;
+}
+
+
+
+
+
+@media (max-width:767px){
+    .sitebrand{
+        font-size: 3rem;
+        padding-left: 2rem;
+    }
+    .dropdown-item{
+        font-size: 1.2rem;
+    }
+
+    .intro-heading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .front-text{
+        text-align: center;
+    }
+
+    .deal-image{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .cta{
+        background-color: #512314;
+        color:#e6e6e6;
+        font-size: 2.5rem;
+    }
+    
+    .dl{
+        margin-top: 4%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .dl-btn{
+        font-size: 1.7rem;
+        margin-top: 2%;
+        width: 50%;
+        border-color:#e6e6e6;
+        color: #e6e6e6;
+    }
+
 }
