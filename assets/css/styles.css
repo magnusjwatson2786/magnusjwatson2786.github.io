@@ -12,8 +12,15 @@ color: #fff;
 font-family: 'Roboto Mono', monospace;
 }
 
+.quote{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 0.8rem;
+  font-style: italic;
+
+}
+
 .bg-img {
-    background-image: url('../img/River.gif');
+    background-image: url('../img/River_full.gif');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,11 +35,11 @@ font-family: 'Roboto Mono', monospace;
     transform: translate(-50%, -50%);
     /* background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 3px 5px rgba(255, 255, 255, 0.3); */
-    background-color: rgba(0,0,0, 0.5);
-    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    background-color: rgba(0,20,0, 0.5);
+    box-shadow: 0 3px 5px rgba(0,35,0, 0.3);
     backdrop-filter: blur(3px);
     width: 90%;
-    height: 35%;
+    height: 40%;
     max-width: 580px;
     border-radius: 7px;
     align-items: center;
@@ -40,16 +47,15 @@ font-family: 'Roboto Mono', monospace;
 
 }
 
-.quote{
+/* .quote{
     color: #fff;
     position:absolute;
     top: 98%;
     text-align: center;
     align-items: center;
     left: 35%;
-    /* width: 100%; */
-    /* transform: translate(-10%, -10%); */
-}
+    width: 100%;
+    transform: translate(-10%, -10%);} */
 
 .header {
     position: absolute;
@@ -85,4 +91,11 @@ font-family: 'Roboto Mono', monospace;
   
   .social-logo:hover {
     transform: scale(1.5);
+  }
+
+  @media (max-width:767px){
+    .box{
+      height: 50%;
+    }
+
   }
