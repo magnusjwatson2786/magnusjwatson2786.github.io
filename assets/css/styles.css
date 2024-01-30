@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body, html {
+    /* background-color: #000; */
+    overflow: hidden;
+    height: 100%;
+    margin: 0%;
+  }
+  
+p,h1{
+color: #fff;
+font-family: 'Roboto Mono', monospace;
+}
+
+.bg-img {
+    background-image: url('../img/River.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.3); */
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    backdrop-filter: blur(3px);
+    width: 90%;
+    height: 35%;
+    max-width: 580px;
+    border-radius: 7px;
+    align-items: center;
+
+
+}
+
+.quote{
+    color: #fff;
+    position:absolute;
+    top: 98%;
+    text-align: center;
+    align-items: center;
+    left: 35%;
+    /* width: 100%; */
+    /* transform: translate(-10%, -10%); */
+}
+
+.header {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+  
+    text-align: center;
+    width: 80%;
+
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 15%;
+  
+    width: 100%;
+  
+    /* center all images inside */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    transition: transform 0.2s;
+  
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-logo:hover {
+    transform: scale(1.5);
+  }
